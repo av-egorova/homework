@@ -23,7 +23,7 @@ Linux, macOs:
 
 * del <filename>
 
-Отображение всех веток 
+git log Отображение всех веток 
 ```
 git branch
 ```

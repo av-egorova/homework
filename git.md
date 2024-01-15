@@ -59,12 +59,8 @@ git branch <Имя_ветки>
 ``````
 git log --oneline --graph 
 ``````
-
-<<<<<<< HEAD
-# Слияние двух веток в одну 
-=======
+ 
 ## Слияние двух веток в одну 
->>>>>>> conflict
 ```
 git merge <branch_name>
 ```
