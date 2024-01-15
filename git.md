@@ -63,3 +63,8 @@ git branch -d <имя_ветки>
 ``````
 git log --oneline --graph 
 ``````
+
+Слияние двух веток в одну 
+```
+git merge <branch_name>
+```
