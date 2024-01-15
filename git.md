@@ -68,3 +68,7 @@ git log --oneline --graph
 ```
 git merge <branch_name>
 ```
+Удаление ветки 
+```
+git branch -d <Имя_ветки>
+```
