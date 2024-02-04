@@ -1,0 +1,79 @@
+//task 1
+
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int counter = 0;
+        while (counter < 162)
+        {
+            Console.WriteLine($"Check({counter}):{Check(counter)}");
+            counter++;
+        }
+    }
+    static bool Check(int n)
+    {
+        if (n % 7 == 0 && n % 23 == 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+}
+
+
+
+
+
+//task 2
+int x = 7;
+int y = -15;
+
+if (x > 0 && y > 0)
+{
+    Console.Write("1");
+}
+else if (x < 0 && y < 0)
+{
+    Console.Write("3");
+}
+else if (x > 0 && y < 0)
+{
+    Console.Write("4");
+}
+else if (x < 0 && y > 0)
+{
+    Console.Write("2");
+}
+
+
+
+// task3
+using System.Runtime.ExceptionServices;
+
+int a = 25;
+
+int firstNum = a /10;
+int secondNum = a % 10;
+
+if (firstNum > secondNum)
+{
+    Console.Write(firstNum);
+}
+else
+{
+    Console.Write(secondNum);
+}
+
+// task 4
+int num = 456;
+string s = Convert.ToString(num, 10);
+
+foreach (char ch in s)
+{
+    Console.Write("{0}, ", ch);
+}
